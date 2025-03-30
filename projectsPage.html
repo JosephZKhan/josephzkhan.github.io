@@ -29,8 +29,8 @@
 						<li><a href="index.html">Home</a></li>
 						<li><a href="aboutPage.html">About</a></li>
 						<li><a href="gamesPage.html">Games</a></li>
+						<li><a href="projectsPage.html">Prototypes</a></li>
 						<li><a href="artPage.html">Art</a></li>
-						<li><a href="projectsPage.html">Additional Projects</a></li>
 						<li><a href="contactPage.html">Contact</a></li>
 					</ul>
 				</nav>
@@ -53,13 +53,52 @@
 
 											<section>
 												<h2 class="major"><span>Projects in Unity</span></h2>
+
+												<h4>The Bonehead Battle</h4>
+												<h5>Online Crowd Multiplayer for Public Spaces</h5>
+												<h5>February - April 2025</h5>
+                                                <video width="1080" height = "720" controls><source src="videos/bonehead battle demo.mp4" type = "video/mp4">  </video>
+												<p>
+													<br><br>
+													This game was made for a module on games technology for public spaces. It demonstrates a form of seamless drop in/out online multiplayer supporting a flexible player count.
+													<br><br>
+													Players connect to the game by accessing a webpage on their smart device via the displayed QR code. This webpage has buttons emulating a gamepad, controlling an avatar that is spawned in once a username is entered.
+													<br><br>
+													I have a soft spot for bullet-hell games like Cuphead, Enter The Gungeon and Vampire Survivors, which influenced the direction of the projectile patterns in the boss battle gameplay.
+													<br><br>
+													WebSockets were used to establish a connection between the web client and Unity server, and transfer button presses from different clients into input signals.
+													<br><br>
+													<img src="images/public spaces AT controller.png" alt="" style="width: 50%;"/>
+													<br>Above: The webpage controller displayed on player's smart device.
+													<br><br>
+                                                    <a href = "https://github.com/PawnyPopFigurine/advanced_tech_2_host">Click here to view this repository.</a>
+												</p>
+												
+												<h4>Block Buster Bonanza</h4>
+												<h5>Voice Commands For Inclusivity</h5>
+												<h5>October 2024 - January 2025</h5>
+                                                <video width="1080" height = "720" controls><source src="videos/BBB_demo.mp4" type = "video/mp4">  </video>
+												<p>
+													<br><br>
+													For a module on games technology for inclusivity, I built this to demonstrate how speech input can be utilised to achieve high-reflex gameplay with input combos typically demanding physical dexterity to perform.
+													<br><br>
+													This was made in Unity, with <a href="https://learn.microsoft.com/en-us/azure/ai-services/speech-service/speech-sdk">Microsoft Azure's Speech SDK</a> for the speech recognition. It was a fun experiment with async operations, required to run the continuous speech input system.
+													<br><br>
+													To fully leverage the inclusivity benefits of the speech input method, settings were implemented allowing a user to set their own input terms via recording. The settings data is saved externally and loaded in on launch, for ease of use.
+													<br><br>
+													81 different speech regions are supported, to broaden the range of usability.
+													<br><br>
+                                                    <a href = "https://github.com/PawnyPopFigurine/advanced_tech_1_v2">Click here to view this repository.</a>
+												</p>
+
                                                 <h5>Reaction-Diffusion Effect</h5>
+												<h5>2021</h5>
                                                 <a href="https://github.com/JosephZKhan/reactionDiffusionTest2" class="image featured"><img src="images/unityReactionDiffusionDemo.png" alt="" /></a>
 												<p>
-													This project was an attempt to recreate the swirling blood effect found on the death screen of Control (2019).
+													This was an attempt to recreate the swirling blood effect found on the death screen of Control (2019).
                                                     After learning about Reaction-Diffusion, the mathematical model used to represent differently-coloured chemicals diffusing into one another, I found a way to implement this using multiple shader files updating and reading from a custom render target.
                                                     The resultant effect shows a pattern spreading across a surface. The visible properties and diffusion rates of the two 'chemicals' can be customized, and the effect works on any mesh, allowing for a variety of uses. <br>
-                                                    <a href = "https://github.com/JosephZKhan/reactionDiffusionTest2">Click here to view the repository for this effect.</a>
+                                                    <a href = "https://github.com/JosephZKhan/reactionDiffusionTest2">Click here to view this repository.</a>
 												</p>
 												<h5>Gameplay Programming</h5>
 												<p>
