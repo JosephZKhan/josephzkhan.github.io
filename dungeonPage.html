@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>The King's Belly</title>
+		<title>Procedural Dungeon Generator</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -80,19 +80,29 @@
 						<div class="row">
 							<div class="col-12">
 								<section class="box features">
-									<h2 class="major" id="Showreel"><span>The King's Belly<br>
-									Jan 2024</span></h2>
+									<h2 class="major" id="Showreel"><span>Procedural Dungeon Generator<br>
+									Sep 2024 - Apr 2025</span></h2>
 									<div style="text-align: center;">
-										<a href="https://globalgamejam.org/games/2024/kings-belly-1" class="image featured"><img src="images/kings_belly.png" alt="" /></a>
+										<video width="1080" height = "720" controls><source src="videos/human authorship video.mp4" type = "video/mp4">  </video>
 								</div>
 								</section>
 							</div>
 							
 							<section>
 								<p>
-								A text-based narrative game made using Unity and Inkle, for the Global Game Jam 2024 with the theme "Make Me Laugh". I was the sole programmer in this group and provided additional writing material.
-																<br><br>
-																<a href="https://globalgamejam.org/games/2024/kings-belly-1">Play it here!</a></h3>
+									<br><br>
+									This level generator was made for my dissertation.
+									<br><br>
+									This project had two main goals for procedural generation: Making a generator whose output appears hand-built, and making an interface for a human designer to specify designs for a generator in the most detailed and effective method possible.
+									<br><br>
+									A major technical accomplishment was the implementation of a generative grammar structure for settings data.
+									<br><br>
+									<a href="https://www.boristhebrave.com/2019/07/28/dungeon-generation-in-enter-the-gungeon/">Inspired by this breakdown of Enter The Gungeon's level generation,</a> this format of modular, node-based settings data per-room lets a human express designs in the vocabulary of game content.
+									<br><br>
+									The project utilised Unity's Tilemap support for level geometry. Custom editor scripts created a bespoke display for generation settings, making actions such as assigning references between rooms simpler and easier to perform.
+									<a href = "https://github.com/PawnyPopFigurine/dungeon_crawler_v1">Click here to view this repository.</a>
+									<br><br>
+									The generator is set up in the Scene called LevelGenerationTestScene. To control the character, use arrows or WASD to move and Spacebar to shoot.
 								</p>
 							</section>
 
